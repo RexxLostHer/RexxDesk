@@ -63,7 +63,7 @@ You can help with translation on [Hosted Weblate](https://bit.ly/48n5YF7).
 
 ## Download
 
-You can check out the [latest release](https://github.com/pear-devs/pear-desktop/releases/latest) to quickly find the
+You can check out the [latest release](https://github.com/RexxLostHer/RexxDesk/releases/latest) to quickly find the
 latest version.
 
 ### Arch Linux
@@ -88,7 +88,7 @@ brew install pear-devs/pear/pear-desktop
 If you install the app manually and get an error "is damaged and can’t be opened." when launching the app, run the following in the Terminal:
 
 ```bash
-/usr/bin/xattr -cr /Applications/Pear\ Desktop.app
+/usr/bin/xattr -cr /Applications/RexxDesk.app
 ```
 
 ### Windows
@@ -114,7 +114,7 @@ winget install pear-devs.pear-desktop
 
 #### How to install without a network connection? (in Windows)
 
-- Download the `*.nsis.7z` file for _your device architecture_ in [release page](https://github.com/pear-devs/pear-desktop/releases/latest).
+- Download the `*.nsis.7z` file for _your device architecture_ in [release page](https://github.com/RexxLostHer/RexxDesk/releases/latest).
   - `x64` for 64-bit Windows
   - `ia32` for 32-bit Windows
   - `arm64` for ARM64 Windows
@@ -230,7 +230,7 @@ import { createPlugin } from '@/utils';
 
 export default createPlugin({
   name: 'Plugin Label',
-  restartNeeded: true, // if value is true, pear-desktop will show a restart dialog
+  restartNeeded: true, // if value is true, RexxDesk will show a restart dialog
   config: {
     enabled: false,
   }, // your custom config

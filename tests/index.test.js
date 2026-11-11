@@ -28,8 +28,13 @@ test('RexxDesk App - With default settings, app is launched and visible', async 
     await consentForm.click('button');
   }
 
-  // const title = await window.title();
-  // expect(title.replaceAll(/\s/g, ' ')).toEqual('RexxDesk');
+  const appName = await app.evaluate(async ({ app }) => app.getName());
+  expect(appName).toBe('RexxDesk');
+
+  const winTitle = await app.evaluate(
+    async ({ BrowserWindow }) => BrowserWindow.getAllWindows()[0].getTitle(),
+  );
+  expect(winTitle).toBe('RexxDesk');
 
   const url = window.url();
   expect(
