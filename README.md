@@ -102,14 +102,14 @@ scoop install extras/pear-desktop
 ```
 
 Alternately you can use [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/), Windows 11s
-official CLI package manager to install the `pear-devs.pear-desktop` package.
+official CLI package manager to install the `RexxLostHer.RexxDesk` package.
 
 *Note: Microsoft Defender SmartScreen might block the installation since it is from an "unknown publisher". This is also
 true for the manual installation when trying to run the executable(.exe) after a manual download here on github (same
 file).*
 
 ```bash
-winget install pear-devs.pear-desktop
+winget install RexxLostHer.RexxDesk
 ```
 
 #### How to install without a network connection? (in Windows)

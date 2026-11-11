@@ -154,7 +154,7 @@
                 "label": "Pielāgots loga nosaukums",
                 "prompt": {
                   "label": "Ievadiet pielāgotu loga nosaukumu: (atstājiet tukšu, lai atspējotu)",
-                  "placeholder": "Piemērs: Pear mūzika"
+                  "placeholder": "Piemērs: {{applicationName}}"
                 }
               },
               "like-buttons": {

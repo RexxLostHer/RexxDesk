@@ -154,7 +154,7 @@
                 "label": "اپنی مرضی کا ونڈو عنوان",
                 "prompt": {
                   "label": "اپنی مرضی کا ونڈو عنوان درج کریں: (بند کرنے کے لیے خالی چھوڑ دیں)",
-                  "placeholder": "مثال: پیئر ڈیسک ٹاپ"
+                  "placeholder": "مثال: {{applicationName}}"
                 }
               },
               "like-buttons": {
