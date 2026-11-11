@@ -1,14 +1,14 @@
 <div align="center">
 
-# :pear: Pear Desktop
+# RexxDesk
 
-[![GitHub release](https://img.shields.io/github/release/pear-devs/pear-desktop.svg?style=for-the-badge)](https://github.com/pear-devs/pear-desktop/releases/)
-[![GitHub license](https://img.shields.io/github/license/pear-devs/pear-desktop.svg?style=for-the-badge)](https://github.com/pear-devs/pear-desktop/blob/master/license)
-[![eslint code style](https://img.shields.io/badge/code_style-eslint-5ed9c7.svg?style=for-the-badge)](https://github.com/pear-devs/pear-desktop/blob/master/eslint.config.mjs)
-[![Build status](https://img.shields.io/github/actions/workflow/status/pear-devs/pear-desktop/build.yml?branch=master&style=for-the-badge)](https://GitHub.com/pear-devs/pear-desktop/releases/)
-[![GitHub All Releases](https://img.shields.io/github/downloads/pear-devs/pear-desktop/total?style=for-the-badge)](https://GitHub.com/pear-devs/pear-desktop/releases/)
-<!--[![AUR](https://img.shields.io/aur/version/pear-desktop-bin?color=blueviolet&style=for-the-badge)](https://aur.archlinux.org/packages/pear-desktop-bin)-->
-[![Known Vulnerabilities](https://snyk.io/test/github/pear-devs/pear-desktop/badge.svg)](https://snyk.io/test/github/pear-devs/pear-desktop)
+[![GitHub release](https://img.shields.io/github/release/RexxLostHer/RexxDesk.svg?style=for-the-badge)](https://github.com/RexxLostHer/RexxDesk/releases/)
+[![GitHub license](https://img.shields.io/github/license/RexxLostHer/RexxDesk.svg?style=for-the-badge)](https://github.com/RexxLostHer/RexxDesk/blob/master/license)
+[![eslint code style](https://img.shields.io/badge/code_style-eslint-5ed9c7.svg?style=for-the-badge)](https://github.com/RexxLostHer/RexxDesk/blob/master/eslint.config.mjs)
+[![Build status](https://img.shields.io/github/actions/workflow/status/RexxLostHer/RexxDesk/build.yml?branch=master&style=for-the-badge)](https://GitHub.com/RexxLostHer/RexxDesk/releases/)
+[![GitHub All Releases](https://img.shields.io/github/downloads/RexxLostHer/RexxDesk/total?style=for-the-badge)](https://GitHub.com/RexxLostHer/RexxDesk/releases/)
+<!--[![AUR](https://img.shields.io/aur/version/rexxdesk-bin?color=blueviolet&style=for-the-badge)](https://aur.archlinux.org/packages/rexxdesk-bin)-->
+[![Known Vulnerabilities](https://snyk.io/test/github/RexxLostHer/RexxDesk/badge.svg)](https://snyk.io/test/github/RexxLostHer/RexxDesk)
 
 </div>
 
@@ -131,8 +131,8 @@ Some predefined themes are available in https://github.com/kerichdev/themes-for-
 ## Dev
 
 ```bash
-git clone https://github.com/pear-devs/pear-desktop
-cd pear-desktop
+git clone https://github.com/RexxLostHer/RexxDesk
+cd RexxDesk
 pnpm install --frozen-lockfile
 pnpm dev
 ```
@@ -302,7 +302,7 @@ Uses [Playwright](https://playwright.dev/) to test the app.
 
 ## License
 
-MIT © [pear-devs](https://github.com/pear-devs/pear-desktop)
+MIT © [RexxLostHer](https://github.com/RexxLostHer/RexxDesk)
 
 ## FAQ
 

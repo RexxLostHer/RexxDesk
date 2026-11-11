@@ -130,14 +130,9 @@ if (is.linux()) {
   }
 
   // Overrides WM_CLASS for X11 to correspond to icon filename
-  app.setName(
-    'com.github.th-ch.\u0079\u006f\u0075\u0074\u0075\u0062\u0065\u002d\u006d\u0075\u0073\u0069\u0063',
-  );
+  app.setName('RexxDesk');
   // for wayland
-  app.commandLine.appendSwitch(
-    'class',
-    'com.github.th-ch.\u0079\u006f\u0075\u0074\u0075\u0062\u0065\u002d\u006d\u0075\u0073\u0069\u0063',
-  );
+  app.commandLine.appendSwitch('class', 'RexxDesk');
 }
 
 if (disableHardwareAcceleration) {
@@ -359,6 +354,7 @@ async function createMainWindow() {
   }
 
   const electronWindowSettings: Electron.BrowserWindowConstructorOptions = {
+    title: 'RexxDesk',
     icon,
     width: windowSize.width,
     height: windowSize.height,
